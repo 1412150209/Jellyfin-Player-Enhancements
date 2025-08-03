@@ -1,9 +1,11 @@
 // ==UserScript==
 // @name         Jellyfin 播放器增强功能 (弹幕+倍速)
 // @namespace    https://lers.site
+// @homepage     https://github.com/1412150209/Jellyfin-Player-Enhancements
 // @version      1.4
 // @description  为Jellyfin播放器添加弹幕支持和倍速播放功能。
-// @author       lers
+// @author       lers梦貘
+// @supportURL   https://github.com/1412150209/Jellyfin-Player-Enhancements/issues
 // @include      http://*:8096/web/*
 // @include      https://*:8096/web/*
 // @grant        GM_xmlhttpRequest
