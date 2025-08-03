@@ -2,7 +2,7 @@
 这是一个为 Jellyfin 网页播放器设计的 Tampermonkey 脚本，为Jellyfin网页播放器添加一些额外功能。
 
 ## 功能：
-- 弹幕支持: 基于 [jellyfin-plugin-danmu](https://github.com/cxfksword/jellyfin-plugin-danmu) 插件，为jellyfin网页播放器的视频添加弹幕功能。
+- 弹幕支持: 基于 [jellyfin-plugin-danmu](https://github.com/cxfksword/jellyfin-plugin-danmu) 插件，为jellyfin网页播放器的视频添加弹幕功能。弹幕引擎使用[Danmaku](https://github.com/weizhenye/Danmaku)。
   - UI 集成: 播放器控制栏右下角会新增弹幕开关和设置按钮。
   - 自定义设置: 支持调整弹幕速度、字体大小和颜色，并自动保存您的设置。
   - 智能提示: 当视频无弹幕时，会显示相应的提示信息。
