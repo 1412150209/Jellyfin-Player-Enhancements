@@ -9,8 +9,10 @@
 // @include      http://*:8096/web/*
 // @include      https://*:8096/web/*
 // @grant        GM_xmlhttpRequest
-// @require      https://cdn.jsdelivr.net/npm/danmaku@latest/dist/danmaku.min.js
+// @require      https://cdn.jsdelivr.net/npm/danmaku@2.0.9/dist/danmaku.min.js
 // @license      MIT
+// @downloadURL https://update.greasyfork.org/scripts/544506/Jellyfin%20%E6%92%AD%E6%94%BE%E5%99%A8%E5%A2%9E%E5%BC%BA%E5%8A%9F%E8%83%BD%20%28%E5%BC%B9%E5%B9%95%2B%E5%80%8D%E9%80%9F%29.user.js
+// @updateURL https://update.greasyfork.org/scripts/544506/Jellyfin%20%E6%92%AD%E6%94%BE%E5%99%A8%E5%A2%9E%E5%BC%BA%E5%8A%9F%E8%83%BD%20%28%E5%BC%B9%E5%B9%95%2B%E5%80%8D%E9%80%9F%29.meta.js
 // ==/UserScript==
 
 (function () {
