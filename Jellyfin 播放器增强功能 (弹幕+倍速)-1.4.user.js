@@ -21,6 +21,19 @@
     // ================================================================
     // 全局状态管理和配置
     // ================================================================
+    const DANMAKU_CONSTANTS = {
+        LOG_LEVEL: "debug",
+        DANMAKU_CONTAINER_ZINDEX: 999999,
+        DEFAULT_CONFIG: {
+            enabled: true,
+            speed: 144,
+            fontSize: 20,
+            opacity: 0.8,
+            mode: "rtl",
+            color: "#ffffff",
+        },
+    };
+    
     const GLOBAL_STATE = {
         danmakuInstance: null,
         configMenu: null,
@@ -33,19 +46,6 @@
         activeVideoElement: null,
         hasDanmakuData: false,
         isScriptActive: false,
-    };
-
-    const DANMAKU_CONSTANTS = {
-        LOG_LEVEL: "debug",
-        DANMAKU_CONTAINER_ZINDEX: 999999,
-        DEFAULT_CONFIG: {
-            enabled: true,
-            speed: 144,
-            fontSize: 20,
-            opacity: 0.8,
-            mode: "rtl",
-            color: "#ffffff",
-        },
     };
 
     const LOG_COLORS = {
